@@ -1,0 +1,265 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Calibri';
+    color: black;
+    margin: 0px;
+}
+
+#navbar {
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    box-shadow: 0 4px 2px -2px gray;
+} 
+
+#logoname {
+    display: flex;
+    align-items: center;
+}
+
+#logo_text {
+    margin: 5px;
+}
+
+#navbarButtons {
+    display: flex;
+    margin-left: 500px;
+    justify-content: space-evenly;
+    width: 600px;
+    font-size: 1 rem;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+a {
+    color: rgb(50, 50, 50);
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    padding: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dd-item {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.dd-item:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.dd-item-innerDiv {
+    color: rgb(100, 100, 100);
+    font-size: 18px;
+    padding-top: 2px;
+}
+
+.dd-item:hover .dd-item-innerDiv {
+    color: darkgreen;
+}
+
+.dropdown-content {
+    display: none;
+    width: 400px;
+    position: absolute;
+    transform: translateX(-40%);
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 40px 20px;
+    color: #333;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-col h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+.footer-col ul li {
+    margin-bottom: 5px;
+}
+
+.new {
+    background-color: #e74c3c;
+    padding: 2px 6px;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.footer-left img.guvi-logo {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    line-height: 1.8;
+    max-width: 400px;
+}
+
+.footer-right {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social-media p {
+    width: 108px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.social-icons a img {
+    flex-wrap: wrap;
+    width: 32px; 
+    height: 32px;
+}
+
+.footer-buttons {
+    margin-top: 10px;
+}
+
+.footer-buttons .refer-earn {
+    display: flex;
+    justify-content: start;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-info {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-info i {
+    color: green;
+    margin-right: 10px;
+}
+
+.contact-form {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2ECC71;
+}
+
+.contact-form p {
+    margin-bottom: 20px;
+    color: #777;
+}
+
+label {
+    font-size: 16px;
+    color: #333;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #2ECC71;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #28A745;
+}
